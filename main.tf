@@ -4,7 +4,7 @@ terraform {
 }
 
 provider "aws" {
-  version = "~> 2.68"
+  version = "~> 5.0"
 }
 
 data "aws_ami" "app_ami" {
